@@ -1,4 +1,3 @@
-# Use a Ruby base image
 FROM ruby:2.7.4
 
 # Set environment variables
