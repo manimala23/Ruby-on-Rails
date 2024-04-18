@@ -1,0 +1,7 @@
+# Use the official PostgreSQL image
+FROM postgres:latest
+
+# Set environment variables
+ENV POSTGRES_DB myapp_production
+ENV POSTGRES_USER myapp_user
+ENV POSTGRES_PASSWORD myapp_password
